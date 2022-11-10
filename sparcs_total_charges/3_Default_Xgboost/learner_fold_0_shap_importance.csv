@@ -1,0 +1,33 @@
+feature,shap_importance
+Total Costs,0.67243814
+Facility Name,0.09619955
+Zip Code - 3 digits,0.06951899
+Facility Id,0.06759382
+Operating Certificate Number,0.057204444
+Health Service Area,0.055458453
+sparcs_los,0.038713366
+Hospital County,0.029035974
+APR MDC Description,0.026570778
+Age Group,0.02194296
+Emergency Department Indicator,0.019148704
+APR Severity of Illness Code,0.015869634
+CCS Procedure Code,0.015194945
+APR DRG Code,0.014337429
+CCS Diagnosis Code,0.012598182
+APR Medical Surgical Description,0.00930206
+APR DRG Description,0.009213198
+CCS Procedure Description,0.007581256
+CCS Diagnosis Description,0.007173352
+Type of Admission,0.006614317
+Birth Weight,0.005903916
+APR Risk of Mortality,0.005379133
+Ethnicity,0.0044010784
+APR MDC Code,0.004162268
+Payment Typology 2,0.004050843
+Payment Typology 1,0.0037260177
+Race,0.0034784826
+Patient Disposition,0.0031561365
+Gender,0.0015431544
+Payment Typology 3,0.0014329385
+APR Severity of Illness Description,0.0014002756
+Abortion Edit Indicator,0.00039261754

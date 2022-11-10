@@ -1,0 +1,16 @@
+if (Emergency Department Indicator > 0.5) and (APR MDC Description <= 22.5) and (Zip Code - 3 digits <= 27.5) then class: Emergency (proba: 98.89%) | based on 5,501 samples
+
+if (Emergency Department Indicator <= 0.5) and (Birth Weight <= 250.0) and (APR Medical Surgical Description <= 0.5) then class: Elective (proba: 41.6%) | based on 2,238 samples
+
+if (Emergency Department Indicator <= 0.5) and (Birth Weight <= 250.0) and (APR Medical Surgical Description > 0.5) then class: Elective (proba: 76.89%) | based on 2,012 samples
+
+if (Emergency Department Indicator > 0.5) and (APR MDC Description <= 22.5) and (Zip Code - 3 digits > 27.5) then class: Emergency (proba: 96.56%) | based on 1,746 samples
+
+if (Emergency Department Indicator <= 0.5) and (Birth Weight > 250.0) and (CCS Diagnosis Code <= 220.0) then class: Newborn (proba: 99.07%) | based on 1,296 samples
+
+if (Emergency Department Indicator > 0.5) and (APR MDC Description > 22.5) and (Facility Id <= 1716.0) then class: Emergency (proba: 85.19%) | based on 432 samples
+
+if (Emergency Department Indicator > 0.5) and (APR MDC Description > 22.5) and (Facility Id > 1716.0) then class: Urgent (proba: 84.85%) | based on 33 samples
+
+if (Emergency Department Indicator <= 0.5) and (Birth Weight > 250.0) and (CCS Diagnosis Code > 220.0) then class: Urgent (proba: 53.85%) | based on 13 samples
+

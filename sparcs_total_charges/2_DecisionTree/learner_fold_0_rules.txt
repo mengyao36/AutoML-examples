@@ -1,0 +1,16 @@
+if (Total Costs <= 111097.516) and (Total Costs <= 28821.25) and (Total Costs <= 12280.09) then response: 18069.516 | based on 11,642 samples
+
+if (Total Costs <= 111097.516) and (Total Costs <= 28821.25) and (Total Costs > 12280.09) then response: 53379.963 | based on 4,104 samples
+
+if (Total Costs <= 111097.516) and (Total Costs > 28821.25) and (Total Costs <= 52773.67) then response: 109416.507 | based on 1,256 samples
+
+if (Total Costs <= 111097.516) and (Total Costs > 28821.25) and (Total Costs > 52773.67) then response: 201978.572 | based on 515 samples
+
+if (Total Costs > 111097.516) and (Total Costs <= 792720.0) and (Total Costs <= 359847.766) then response: 467580.51 | based on 154 samples
+
+if (Total Costs > 111097.516) and (Total Costs <= 792720.0) and (Total Costs > 359847.766) then response: 1423989.064 | based on 14 samples
+
+if (Total Costs > 111097.516) and (Total Costs > 792720.0) and (sparcs_los > 0.5) then response: 4410671.46 | based on 1 samples
+
+if (Total Costs > 111097.516) and (Total Costs > 792720.0) and (sparcs_los <= 0.5) then response: 4281817.08 | based on 1 samples
+
